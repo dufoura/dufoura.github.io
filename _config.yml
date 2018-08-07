@@ -28,6 +28,11 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  dufoura
 
+defaults:
+  - scope:
+      path: "assets/img"
+    values:
+      image: true
 # About/contact
 author:
   name:       Author name

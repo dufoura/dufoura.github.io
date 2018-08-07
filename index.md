@@ -6,15 +6,15 @@ layout: home
 ---
 
 <div id="home">
-  <h1>Blog Posts</h1>
+  <h1>Les dernières actus</h1>
  
     {% for post in site.posts %}
     <div id="article"> 
-    <div id="image"><img source="{{ site.baseurl }}/assets/Test.jpg"></div>
+    <div id="image"><img height="150" width="150" src="{{ "/assets/img/" | absolute_url }}{{post.image}}"></div>
 <div id="Bloc2">
     <div id="Titre"><a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a></div>
 
-    <div id="Description">Description</div>
+    <div id="Description">{{post.resume}}</div>
     <div id="Date">{{ post.date | date_to_string }}</div>
  </div>   
     
