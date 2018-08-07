@@ -450,5 +450,23 @@ li.navbar a:hover {
 #article 
 {
 display:flex;
+}
+
+#image 
+{
+}
+#Bloc2 
+{
+  display:flex;
   flex-direction: column;
 }
+#Titre 
+{
+}
+#Date 
+{
+}
+#Description 
+{
+}
+
