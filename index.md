@@ -10,13 +10,13 @@ layout: home
  
     {% for post in site.posts %}
     <div id="article"> 
-    <div class="Image">Image</div>
+    <div id="image">Image</div>
+<div id="Bloc2">
+    <div id="Titre"><a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a></div>
 
-    <div class="Titre"><a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a></div>
-
-    <div class="Description">Description</div>
-    <div class="date">{{ post.date | date_to_string }}</div>
-    
+    <div id="Description">Description</div>
+    <div id="Date">{{ post.date | date_to_string }}</div>
+ </div>   
     
     </div>
     {% endfor %}
