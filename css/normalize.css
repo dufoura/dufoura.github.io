@@ -466,7 +466,8 @@ display:flex;
 #Date 
 {
   font-family: monospace, monospace;
-font-size: small;
+font-size: x-small;
+  font-style:italic;
 }
 #Description 
 {
