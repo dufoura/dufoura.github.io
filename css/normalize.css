@@ -446,3 +446,8 @@ li.navbar a {
 li.navbar a:hover {
     background-color: #111;
 }
+
+#article 
+{
+display:flex;
+}
