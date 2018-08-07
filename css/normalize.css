@@ -423,11 +423,12 @@ th {
   padding: 0;
 }
 ul.navbar {
+
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+	background-image: linear-gradient(60deg, #206cb7, #159957)
 }
 
 li.navbar {
@@ -479,3 +480,8 @@ font-size: x-small;
 {
 }
 
+social-list, ul
+{
+  list-style-type: none;
+  font-size:15px ;
+}
