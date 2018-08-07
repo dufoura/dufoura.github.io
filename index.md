@@ -10,7 +10,7 @@ layout: home
  
     {% for post in site.posts %}
     <div id="article"> 
-    <div id="image">Image</div>
+    <div id="image"><img source="{{ site.baseurl }}/assets/Test.jpg"></div>
 <div id="Bloc2">
     <div id="Titre"><a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a></div>
 
