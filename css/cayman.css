@@ -191,7 +191,4 @@ a:hover { text-decoration: underline; }
 
 .site-footer-credits { color: #819198; }
 
-@media screen and (min-width: 64em) { .page-navbar { padding: 5rem 6rem; } }
-@media screen and (min-width: 42em) and (max-width: 64em) { .page-navbar { padding: 3rem 4rem; } }
-@media screen and (max-width: 42em) { .page-navbar { padding: 2rem 1rem; } }
-
+.page-navbar { padding: 0; }
