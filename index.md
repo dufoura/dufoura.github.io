@@ -9,7 +9,7 @@ layout: home
   <h1>Blog Posts</h1>
  
     {% for post in site.posts %}
-    <div class="article">  <a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a>
+    <div id="article">  <a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a>
     {{ post.date | date_to_string }}
     Description
     </div>
