@@ -450,4 +450,5 @@ li.navbar a:hover {
 #article 
 {
 display:flex;
+  flex-direction: column;
 }
