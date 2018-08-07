@@ -10,6 +10,7 @@ layout: home
   <ul class="posts">
     {% for post in site.posts %}
       <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+    <li>  <a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a> </br> {{ post.date | date_to_string }} </br> Description </li>
     {% endfor %}
   </ul>
 </div>
