@@ -9,9 +9,15 @@ layout: home
   <h1>Blog Posts</h1>
  
     {% for post in site.posts %}
-    <div id="article">  <a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a>
-    {{ post.date | date_to_string }}
-    Description
+    <div id="article"> 
+    <div class="Image">Image</div>
+
+    <div class="Titre"><a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a></div>
+
+    <div class="Description">Description</div>
+    <div class="date">{{ post.date | date_to_string }}</div>
+    
+    
     </div>
     {% endfor %}
  
