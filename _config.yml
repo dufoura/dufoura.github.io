@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Posez-vous les bonnes questions
-tagline:      A responsive theme for your project on GitHub Pages
+tagline:      Des idées pour minimiser notre impact écologique
 email: arnaud31.dufour@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
@@ -24,7 +24,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 paginate:     1
 locale:       "en"
 
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://localhost:4200" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  dufoura
 
