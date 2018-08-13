@@ -485,3 +485,8 @@ social-list, ul
   list-style-type: none;
   font-size:15px ;
 }
+
+.img-circle
+{
+	border-radius: 50%;
+}
