@@ -1,18 +1,12 @@
 ---
-layout: page
+layout: post
 title: Qui suis-je?
 permalink: /quisuisje/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+Je m'appelle Arnaud et je suis passioné d'électronique. J'ai longtemps était passionné par l'aéromodélisme et la réalisation d'avions miniatures à faire voler. 
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+Mais je me suis plus orienté vers de la conception de systèmes électroniques domotiques avec comme objectif principal de diminuer l'empreinte écologique. 
+Pour cela, je réfléchis à des systèmes qui peuvent permettre de faire des économies d'énergie, limiter l'utilisation de l'eau, etc...
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+Depuis peu, j'ai décidé de partager un peu toutes ces conceptions pour le bien de tous et en espérant que ça fera naître des vocations ou des idées.

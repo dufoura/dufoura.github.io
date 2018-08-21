@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Diminuez votre consommation d'eau chaude"
-date:   2018-08-06 21:50:21 +0200
+date:   2018-08-21 21:50:21 +0200
 categories: jekyll update
 image : Test2.png
 resume : "Cet article vous propose un module électronique capable de commander à distance la commande de chauffe de votre cumulus au plus juste besoin"
@@ -29,7 +29,7 @@ Côté alimentation électrique, il existe deux cas de figure possibles :
 <li>Cumulus uniquement allumé aux heures creuses, avec l'abonnement heures pleines / heures creuses (HP / HC)</li>
 
 <strong>Dans ce post, je vous en propose un troisième <i class="fas fa-kiss-beam"></i> : </strong>
-<li>Pose d'un <a href="{{ site.baseurl }}/jekyll/update/2018/08/21/fabriquer-votre-module-cumulus.html">module électronique</a> pour réguler la chauffe de votre chauffe-eau à votre guise.</li>
+<li>Pose d'un <a href="{{ site.baseurl }}/jekyll/update/2018/08/02/welcome-to-jekyll.html">module électronique</a> pour réguler la chauffe de votre chauffe-eau à votre guise.</li>
 </ol>
 <h3> Les avantages et inconvénients de ces solutions </h3>
 
@@ -46,7 +46,7 @@ Dans le premier cas, votre cumulus est constamment connecté au secteur. Il va d
 
 Dans le second cas, vous activerez uniquement votre cumulus pendant les heures creuses, via un module qu'il faut installer dans votre tableau électrique (c'est un module avec trois positions : arrêt, auto et marche)
 
-Dans la <a href="{{ site.baseurl }}/jekyll/update/2018/08/21/fabriquer-votre-module-cumulus.html">solution proposée</a>, vous allez pouvoir alimenter votre chauffe eau au plus juste besoin. En effet, vous avez la possibilité de déclencher à n'importe quelle heure votre chauffe eau, en fonction de vos habitudes. 
+Dans la <a href="{{ site.baseurl }}/jekyll/update/2018/08/02/welcome-to-jekyll.html">solution proposée</a>, vous allez pouvoir alimenter votre chauffe eau au plus juste besoin. En effet, vous avez la possibilité de déclencher à n'importe quelle heure votre chauffe eau, en fonction de vos habitudes. 
 <blockquote>
 Vous vous douchez le soir? allumez-le 5h avant.
 Plutôt du matin? Allumez-le à 2h du matin, pour avoir une eau chaude à 7h. 
@@ -113,7 +113,7 @@ Optez pour une option heure pleine - heure creuse. Et ne pas oublier d'acheter l
 Attention, baissez la température de consigne sous  les 60°C n'est pas une solution viable. Vous risqueriez un développement microbien.
 </li>
 <li>
-<a href="{{ site.baseurl }}/jekyll/update/2018/08/21/fabriquer-votre-module-cumulus.html">Fabriquez votre module</a> pour programmer les démarrages de votre chauffe-eau. Vous pouvez rester sur un forfait base si vous voulez et activer le chauffe eau au juste besoin en réglant la tranche horaire de fonctionnement.
+<a href="{{ site.baseurl }}/jekyll/update/2018/08/02/welcome-to-jekyll.html">Fabriquez votre module</a> pour programmer les démarrages de votre chauffe-eau. Vous pouvez rester sur un forfait base si vous voulez et activer le chauffe eau au juste besoin en réglant la tranche horaire de fonctionnement.
 </li>
 </ol>
 
