@@ -14,10 +14,10 @@ Vous êtes-vous posé la question? Non? Alors lisez cet article pour limiter vot
 <h2> Premier axe d'amélioration : bien connaître ses besoins </h2>
 Tout d'abord, avez-vous suffisament bien dimensionné la taille de votre cumulus? Car toute eau chauffée non utilisée subira des pertes thermiques inutiles. 
 
-Il faut l'admettre, c'est un paramètre très difficile à anticiper, car il faut prendre en compte pas mal de paramètres (je fais la vaisselle, famille qui risque de s'aggrandir, est-ce que je me douche aux mêmes horaires?, etc...)
+Il faut l'admettre, c'est un paramètre très difficile à anticiper, car il faut prendre en compte pas mal de paramètres (je fais la vaisselle, famille qui risque de s'aggrandir, est-ce que je me douche toujours à la même heure?, etc...)
 
 <strong>Une règle d'or</strong>, c'est de <a href="https://www.mychauffage.com/blog/comment-choisir-capacite-chauffe-eau">sélectionner un chauffe-eau</a> avec une capacité au plus juste besoin. 
-En effet, non seulement vous aurez besoin de moins chauffer d'eau et en plus vous diminuerez les pertes (un ballon plus gros dissipe plus d'énergie)
+En effet, non seulement vous aurez besoin de moins chauffer d'eau et en plus vous diminuerez les pertes (en effet, un ballon plus gros dissipe plus d'énergie)
 
 Pour avoir une idée des pertes de votre cumulus, il existe un chiffre intitulé "Consommation d'entretien" dans la notice de votre chauffe-eau. Elle est exprimée en kWh pour maintenir pendant 24h l'eau à 60°C dans une pièce de 20°C.
 Au premier ordre, on peut compter 1kWh tous les 100L pour une journée, soit 365kWh par an. <strong>On arrive déjà à une cinquantaine d'euros de perdu par an! <i class="fas fa-surprise"></i></strong>  Pour 200L, cette valeur sera doublée.
@@ -29,7 +29,7 @@ Côté alimentation électrique, il existe deux cas de figure possibles :
 <li>Cumulus uniquement allumé aux heures creuses, avec l'abonnement heures pleines / heures creuses (HP / HC)</li>
 
 <strong>Dans ce post, je vous en propose un troisième <i class="fas fa-kiss-beam"></i> : </strong>
-<li>Pose d'un <a href="{{ site.baseurl }}/jekyll/update/2018/08/21/fabriquer-votre-module-cumulus.html">module électronique</a> pour réguler la chauffe de votre chauffe-eau à votre guise.</li>
+<li>Pose d'un <a href="{{ site.baseurl }}/jekyll/update/2018/08/21/fabriquer-votre-module-cumulus.html">module électronique</a> pour réguler la chauffe de votre chauffe-eau à votre guise. Il peut convenir pour les deux types de tarification.</li>
 </ol>
 <h3> Les avantages et inconvénients de ces solutions </h3>
 
@@ -38,7 +38,7 @@ Côté alimentation électrique, il existe deux cas de figure possibles :
 <tr><td>Solution N°</td><td>Avantages</td><td>Inconvénients</td>
 </tr>
 <tr><td>1</td><td>Eau chaude à disposition en permanence</td><td>Solution coûteuse et peu écologique</td></tr>
-<tr><td>2</td><td>Permet de profiter d'une tarification heure creuse et allume le chauffe eau pendant les 8h de créneau HC</td><td>Nécessite l'installation d'un module dans votre tableau électrique</td></tr>
+<tr><td>2</td><td>Permet de profiter d'une tarification heure creuse et allume le chauffe eau pendant vos 8h de créneau HC</td><td>Nécessite l'installation d'un boitier dans votre tableau électrique</td></tr>
 <tr><td>3</td><td>Permet de chauffer de l'eau au juste besoin</td><td>Nécessite d'installer un module</td></tr>
 </table>
 
@@ -48,11 +48,13 @@ Dans le second cas, vous activerez uniquement votre cumulus pendant les heures c
 <center>
 <img src="{{ "/assets/img/" | absolute_url }}graphe1.png" alt="Voici à quoi ça ressemble">
 </center>
+Ces boitiers sont disponibles dans la plupart des magasins de bricolage.
 
 Dans la <a href="{{ site.baseurl }}/jekyll/update/2018/08/21/fabriquer-votre-module-cumulus.html">solution proposée</a>, vous allez pouvoir alimenter votre chauffe eau au plus juste besoin. En effet, vous avez la possibilité de déclencher à n'importe quelle heure votre chauffe eau, en fonction de vos habitudes. 
 <blockquote>
-Vous vous douchez le soir? allumez-le 5h avant.
-Plutôt du matin? Allumez-le à 2h du matin, pour avoir une eau chaude à 7h. 
+Vous vous douchez le soir? allumez-le 5h avant pour laisser le temps à votre cumulus de chauffer l'eau.
+Vous êtes plutôt du matin? Allumez-le à 2h du matin, en pleine heure creuse, pour avoir une eau chaude à 7h.
+Encore une fois attention, si votre ballon est plus gros, les temps de chauffe s'alongeront...  
 </blockquote>
 
 <h3> Et l'empreinte éco ? </h3>
@@ -63,8 +65,8 @@ Mes hypothèses :
 - 1 ballon de 150L de quelques années (je prends un facteur de vieillesse dans les pertes)
 - Un flux thermique qui décroît linéairement en fonction de la différence de température entre l'eau dans la cuve et l'extérieur
 - Un thermostat réglé à 70°C (pour vous éviter tout risque de légionellose)
-- Une utilisation de 2 douches quotidiennes + eau robinet matin et soir
-- Un fonctionnement 365j/an
+- Une utilisation de 2 douches quotidiennes (soit 40L d'eau chaude) + lavage de mains, vaiselle (environ 5L d'eau chaude consommée)
+- Un fonctionnement 365j/an (hypothèse pire-cas)
 
 Pour vous donner quelques repères, voici quelques chiffres : 
 - J'estime que sans alimenter mon chauffe eau, l'eau perd 0.9°C par heure lorsque l'eau est à 70°C.
@@ -96,7 +98,12 @@ Voici les résultats :
 <tr><td>3</td><td>676kWh</td><td>83€</td><td>56%</td></tr>
 </table>
 
-<strong>Attention, je le rappelle, ce n'est ici que des énergies perdus, ce n'est pas le montant de la facture! Je ne prends pas en compte l'eau chaude que vous utilisez lors de votre douche. Sinon, les chiffres ne seraient pas les mêmes!</strong>
+<strong>Attention, je le rappelle, ce n'est ici que des énergies perdus, ce n'est qu'une partie du montant de votre facture! 
+  
+Pour le reste de vore facture, c'est de l'énergie nécessaire à chauffer votre eau que vous allez consommer.
+
+Grosso modo, les pertes représentent la moitié de la facture. (A 45L d'eau consommée par jour, je suis à 1000kWh/an)
+</strong>
 
 
 
@@ -106,11 +113,11 @@ Pour diminuer notre empreinte énergétique, voici les principaux conseils :
 <li>
 Dimensionnez correctement votre ballon d'eau chaude. Il vaut mieux un peu plus petit que trop grand 
 <blockquote>
-Au pire, vous pourrez monter un peu le thermostat, s'il y a plus de monde pour avoir plus d'eau chaude!
+Au pire, vous pourrez monter temporairement le thermostat, s'il y a plus de monde pour avoir plus d'eau chaude!
 </blockquote>
 </li>
 <li>
-Optez pour une option heure pleine - heure creuse. Et ne pas oublier d'acheter le module qui permet d'activer automatiquement votre chauffe eau en heures creuses.
+Optez pour une option heure pleine - heure creuse. Et ne pas oublier d'acheter le module qui permet d'activer automatiquement votre chauffe eau en heures creuses chez votre magasin de bricolage préféré!
 </li>
 <li>
 Attention, baissez la température de consigne sous  les 60°C n'est pas une solution viable. Vous risqueriez un développement microbien.
