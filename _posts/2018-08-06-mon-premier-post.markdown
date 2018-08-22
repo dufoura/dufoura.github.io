@@ -44,7 +44,10 @@ Côté alimentation électrique, il existe deux cas de figure possibles :
 
 Dans le premier cas, votre cumulus est constamment connecté au secteur. Il va donc constamment maintenir votre température à la consigne. Cette solution est source de perte d'énergie.
 
-Dans le second cas, vous activerez uniquement votre cumulus pendant les heures creuses, via un module qu'il faut installer dans votre tableau électrique (c'est un module avec trois positions : arrêt, auto et marche)
+Dans le second cas, vous activerez uniquement votre cumulus pendant les heures creuses, via un boitier avec trois positions : arrêt, auto et marche, qu'il faut installer dans votre tableau électrique. Voici à quoi cela ressemble : 
+<center>
+<img src="{{ "/assets/img/" | absolute_url }}graphe1.png" alt="Voici à quoi ça ressemble">
+</center>
 
 Dans la <a href="{{ site.baseurl }}/jekyll/update/2018/08/21/fabriquer-votre-module-cumulus.html">solution proposée</a>, vous allez pouvoir alimenter votre chauffe eau au plus juste besoin. En effet, vous avez la possibilité de déclencher à n'importe quelle heure votre chauffe eau, en fonction de vos habitudes. 
 <blockquote>
