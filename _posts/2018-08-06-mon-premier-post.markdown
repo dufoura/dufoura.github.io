@@ -101,10 +101,10 @@ Voici les résultats :
 </table>
 
 <strong>Attention, je le rappelle, ce n'est ici que des énergies perdus, ce n'est qu'une partie du montant de votre facture! 
-  
-Pour le reste de vore facture, c'est de l'énergie nécessaire à chauffer votre eau que vous allez consommer.
-
-Grosso modo, les pertes représentent la moitié de la facture. (A 45L d'eau consommée par jour, je suis à 1000kWh/an)
+ </strong>
+<strong>Pour le reste de vore facture, c'est de l'énergie nécessaire à chauffer votre eau que vous allez consommer.
+</strong>
+<strong>Grosso modo, les pertes représentent la moitié de la facture. (A 45L d'eau consommée par jour, je suis à 1000kWh/an)
 </strong>
 
 
