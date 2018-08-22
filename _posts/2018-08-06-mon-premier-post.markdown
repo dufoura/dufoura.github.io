@@ -68,6 +68,7 @@ Mes hypothèses :
 - Une utilisation de 2 douches quotidiennes (soit 40L d'eau chaude) + lavage de mains, vaiselle (environ 5L d'eau chaude consommée)
 - Un fonctionnement 365j/an (hypothèse pire-cas)
 - Je fais mon raisonnement sur le mois de Mai, afin que la saison hivernale compense la saison estivale en terme de besoin d'eau chaude!
+- Mon cumulus se situe dans une zone habitable régulée à 20°C
 
 Pour vous donner quelques repères, voici quelques chiffres : 
 - J'estime que sans alimenter mon chauffe eau, l'eau perd 0.9°C par heure lorsque l'eau est à 70°C.
