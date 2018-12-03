@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Diminuez votre consommation d'eau chaude"
+title:  "Diminuez votre facture d'eau chaude"
 date:   2018-08-06 22:30:21 +0200
 categories: jekyll update
 image : Test2.png

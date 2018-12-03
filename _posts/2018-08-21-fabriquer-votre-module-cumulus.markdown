@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "Fabriquez votre module de chauffage"
+title:  "Régulez votre chauffe-eau"
 date:   2018-08-21
 categories: jekyll update
-image : Test2.png
+image : cumulus.png
 resume : "Cet article vous propose un module électronique capable de commander à distance la commande de chauffe de votre cumulus au plus juste besoin"
 ---
 Cet article va vous proposer une solution suite à l'article précédent sur le sujet  <a href="{{ site.baseurl }}/jekyll/update/2018/08/06/Diminuez-votre-consommation-eau-chaude.html">
@@ -12,9 +12,9 @@ Il s'agit d'un module implémentable au niveau de votre tableau électrique.
 Ce module est pilotable via le wifi, soit en se connectant en point à point, soit en l'appairant à votre réseau wifi.
 
 <h2> Côté Hardware </h2>
-Côté composants électroniques, j'adore travailler avec les modules ESP8266, car ils intègrent le module Wifi et ils disposent d'une flash embarquée conséquente, 
+Côté composants électroniques, j'adore travailler avec les modules ESP8266, car ils intègrent le module Wifi et ils disposent d'une flash embarquée assez importante, 
 permettant ainsi de stocker facilement un petit site internet en guise d'interface! 
-Pour le pilotage de la puissance, vous pouvez utiliser un relais qui va venir commuter le réseau EDF.
+Pour le pilotage de la puissance, le plus simple est d'utiliser un relais qui va venir commuter le réseau EDF.
 <blockquote>
 <i class="fas fa-plug"></i>  Attention, ce module est en contact avec du 230V, autant dire que toute manipulation nécessite de couper l'électricité le temps de l'intervention!
 Je ne suis pas responsable de vos mauvaises manipulations!
@@ -25,17 +25,18 @@ On rajoute également un régulateur de tension et quelques capacités de filtra
 <img src="{{ "/assets/img/" | absolute_url }}esp_cumulus_schema.png">
 
 <h2> Côté Software </h2>
-Pour le côté logiciel, le plus intuitif de mon point de vue côté utilisateur est une interface Web avec le module. 
+Pour le côté logiciel, le plus intuitif de mon point de vue est une interface Web avec le module. 
 Pour télécharger le code sous ESP8266, j'utilise l'outils Arduino IDE, qui est je trouve hyper pratique! 
 <blockquote>
 Quoi?!? Vous n'avez pas encore téléchargé Arduino et la librairie ESP8266 ??? Suivez <a href="https://github.com/esp8266/Arduino#installing-with-boards-manager">ce guide</a>
 </blockquote>
-Il faut se placer avec la board présente sur votre circuit (dans mon cas : NodeMCU 1.0 - ESP12E)
-Pour uploader le code, il y a quelques manipulations nécessaires si vous souhaitez utiliser comme moi le module ESP8266 seul. 
-En effet, il faut faire entrer le module en mode 'boot' avant tout téléchargement. 
-Pour cela, il faut mettre au 0V les pins 0 et 2. Sur mon module, il suffit juste de relier les deux bornes ci-dessous le temps du chargement de code.
+Au niveau du board manager, il faut sélectionner le module utilisé (dans mon cas : NodeMCU 1.0 - ESP12E)
+Pour uploader le code, il y a quelques manipulations nécessaires si vous souhaitez utiliser le module ESP8266 seul. 
+En effet, avant le téléchargement du code, il faut faire entrer le module en mode 'boot'. 
+Pour cela, il faut mettre au 0V les pins 0 et 2. Sur mon module, il suffit juste de relier le GPIO 0 et 2 au GND, avant de brancher la carte.
 Il faut également un module usb to serial pour permettre de télécharger le code dans l'ESP.
 
+Le code est disponible à cette adresse : <a href="https://github.com/dufoura/ESP_Cumulus.git"> Ici </a> 
 
 <h2> Premiers pas avec le module </h2>
 Vous avez réussi à transférer le programme dans l'ESP8266? Bravo!
