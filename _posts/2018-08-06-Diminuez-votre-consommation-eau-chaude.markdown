@@ -11,6 +11,8 @@ Un jour, je me suis posé la question de savoir si j'arrivais à consommer quoti
 <blockquote>
 Vous êtes-vous posé la question? Non? Alors lisez cet article pour limiter votre empreinte écologique!
 </blockquote>
+En effet, l'eau chaude sanitaire représente le second poste consommation d'électricité, après le chauffage.
+
 <h2> Premier axe d'amélioration : bien connaître ses besoins </h2>
 Tout d'abord, avez-vous suffisament bien dimensionné la taille de votre cumulus? Car toute eau chauffée non utilisée subira des pertes thermiques inutiles. 
 
@@ -44,17 +46,13 @@ Côté alimentation électrique, il existe deux cas de figure possibles :
 
 Dans le premier cas, votre cumulus est constamment connecté au secteur. Il va donc constamment maintenir votre température à la consigne. Cette solution est source de perte d'énergie.
 
-Dans le second cas, vous activerez uniquement votre cumulus pendant les heures creuses, via un boitier avec trois positions : arrêt, auto et marche, qu'il faut installer dans votre tableau électrique. Voici à quoi cela ressemble : 
-<center>
-<img src="{{ "/assets/img/" | absolute_url }}graphe1.png" alt="Voici à quoi ça ressemble">
-</center>
-Ces boitiers sont disponibles dans la plupart des magasins de bricolage.
+Dans le second cas, vous activerez uniquement votre cumulus pendant les heures creuses, via un boitier avec trois positions : arrêt, auto et marche, qu'il faut installer dans votre tableau électrique et régler sur la position auto.Ces boitiers sont disponibles dans la plupart des magasins de bricolage.
 
 Dans la <a href="{{ site.baseurl }}/jekyll/update/2018/08/21/fabriquer-votre-module-cumulus.html">solution proposée</a>, vous allez pouvoir alimenter votre chauffe eau au plus juste besoin. En effet, vous avez la possibilité de déclencher à n'importe quelle heure votre chauffe eau, en fonction de vos habitudes. 
 <blockquote>
-Vous vous douchez le soir? allumez-le 5h avant pour laisser le temps à votre cumulus de chauffer l'eau.
+Vous vous douchez le soir? allumez-le 5h en avance pour laisser le temps à votre cumulus de chauffer l'eau.
 Vous êtes plutôt du matin? Allumez-le à 2h du matin, en pleine heure creuse, pour avoir une eau chaude à 7h.
-Encore une fois attention, si votre ballon est plus gros, les temps de chauffe s'alongeront...  
+Encore une fois attention, si votre ballon est plus gros, les temps de chauffe s'allongeront...  
 </blockquote>
 
 <h3> Et l'empreinte éco ? </h3>
@@ -64,14 +62,14 @@ J'ai fait pour vous une estimation de vos pertes d'énergie en fonction de ces 3
 Mes hypothèses : 
 - 1 ballon de 150L de quelques années (je prends un facteur de vieillesse dans les pertes)
 - Un flux thermique qui décroît linéairement en fonction de la différence de température entre l'eau dans la cuve et l'extérieur
-- Un thermostat réglé à 70°C (pour vous éviter tout risque de légionellose)
-- Une utilisation de 2 douches quotidiennes (soit 40L d'eau chaude) + lavage de mains, vaiselle (environ 5L d'eau chaude consommée)
+- Un thermostat réglé à 65°C (pour vous éviter tout risque de légionellose)
+- Une utilisation de 2 douches quotidiennes (soit 40L d'eau chaude) + lavage de mains, vaisselle (environ 5L d'eau chaude consommée)
 - Un fonctionnement 365j/an (hypothèse pire-cas)
 - Je fais mon raisonnement sur le mois de Mai, afin que la saison hivernale compense la saison estivale en terme de besoin d'eau chaude!
 - Mon cumulus se situe dans une zone habitable régulée à 20°C
 
 Pour vous donner quelques repères, voici quelques chiffres : 
-- J'estime que sans alimenter mon chauffe eau, l'eau perd 0.9°C par heure lorsque l'eau est à 70°C.
+- J'estime que sans alimenter mon chauffe eau, l'eau perd 0.9°C par heure lorsque l'eau est à 60°C.
 - Avec l'alimentation, mon eau chauffe de 8°C par heure environ.
 - Mon ballon chauffe en 5h.
 
@@ -95,14 +93,14 @@ Voici les résultats :
 <table>
 <tr><td>Solution N°</td><td>kWh annuels perdus</td><td>Coût annuel</td><td>Gain vis-à-vis de la première solution</td>
 </tr>
-<tr><td>1</td><td>1312kWh</td><td>190€</td><td>/</td></tr>
-<tr><td>2</td><td>774kWh</td><td>95€</td><td>50%</td></tr>
-<tr><td>3</td><td>676kWh</td><td>83€</td><td>56%</td></tr>
+<tr><td>1</td><td>1312kWh</td><td>175€</td><td>/</td></tr>
+<tr><td>2</td><td>774kWh</td><td>95€</td><td>45%</td></tr>
+<tr><td>3</td><td>676kWh</td><td>83€</td><td>52%</td></tr>
 </table>
 
 <strong>Attention, je le rappelle, ce n'est ici que des énergies perdus, ce n'est qu'une partie du montant de votre facture! 
  </strong>
-<strong>Pour le reste de vore facture, c'est de l'énergie nécessaire à chauffer votre eau que vous allez consommer.
+<strong>Pour le reste de votre facture, c'est de l'énergie nécessaire à chauffer votre eau que vous allez consommer.
 </strong>
 <strong>Grosso modo, les pertes représentent la moitié de la facture. (A 45L d'eau consommée par jour, je suis à 1000kWh/an)
 </strong>
@@ -130,3 +128,5 @@ Attention, baissez la température de consigne sous  les 60°C n'est pas une sol
 </ol>
 
 
+<h3>Pour aller plus loin</h3>
+Si vous souhaitez aller encore plus loin, vous pouvez décider d'investir dans un chauffe-eau thermodynamique. Vous pourrez diminuer significativement votre facture d'énergie, mais vous pourrez toujours optimiser l'énergie perdue en faisant marcher votre chauffe-eau juste avant de prendre votre douche. 

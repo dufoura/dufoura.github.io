@@ -9,7 +9,7 @@ resume : "Cet article vous propose un module électronique capable de commander 
 Cet article va vous proposer une solution suite à l'article précédent sur le sujet  <a href="{{ site.baseurl }}/jekyll/update/2018/08/06/Diminuez-votre-consommation-eau-chaude.html">
 de la réalisation d'économies d'énergie au niveau de votre cumulus</a>. 
 Il s'agit d'un module implémentable au niveau de votre tableau électrique. 
-Ce module est pilotable via le wifi, soit en se connectant en point à point, soit en l'appairant à votre réseau wifi.
+Ce module est pilotable via le wifi : soit en se connectant en point à point, soit en l'appairant à votre réseau wifi.
 
 <h2> Côté Hardware </h2>
 Côté composants électroniques, j'adore travailler avec les modules ESP8266, car ils intègrent le module Wifi et ils disposent d'une flash embarquée assez importante, 
@@ -21,8 +21,13 @@ Je ne suis pas responsable de vos mauvaises manipulations!
 </blockquote>
 Le plus souvent, les relais doivent être pilotés en 5V. L'ESP8266 ne fonctionnant qu'à 3.3V, il faut un circuit d'adaptation (un simple transistor MOSFET dans notre cas)
 Afin de pouvoir déclencher le module à des heures fixes de la journée, il faut un module RTC capable de mémoriser l'heure. 
-On rajoute également un régulateur de tension et quelques capacités de filtrage, voici la schématique : 
+On rajoute également un régulateur de tension et quelques capacités de filtrage, voici la schématique (le layout est disponible sous le Github) : 
 <img src="{{ "/assets/img/" | absolute_url }}esp_cumulus_schema.png">
+Au niveau du tableau électrique, le module se place entre le retour du compteur EDF et le disjoncteur de ballon d'eau chaude, comme sur le schéma : 
+
+<center>
+<img src="{{ "/assets/img/" | absolute_url }}montage_schema.png">
+</center>
 
 <h2> Côté Software </h2>
 Pour le côté logiciel, le plus intuitif de mon point de vue est une interface Web avec le module. 
@@ -51,7 +56,7 @@ Quelques petites étapes de vérification :
 Attention au wifi en général. Vous pouvez potentiellement avoir pendant les étapes de configuration un petit hacker qui pourrait tenter de soutirer 
 des informations sur vos log de wifi. Il faut être très vigilant et vérifier lorsque l'on réalise les premières connexions qu'il n'existe pas deux wifi avec un nom identique!
 De même, faites l'effort de mettre un mot de passe dans le code pas trop facile à deviner. 
-Normalement, vous n'avez rien à craindre. Mais il vaut mieux être prévenu!
+Normalement, vous n'avez rien à craindre (si ce n'est de prendre la douche froide un jour! ). Mais il vaut mieux être prévenu!
 </blockquote>
 
 <h2> Quelques retours </h2>
