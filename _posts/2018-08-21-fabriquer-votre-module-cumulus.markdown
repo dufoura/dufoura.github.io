@@ -43,6 +43,8 @@ Il faut également un module usb to serial pour permettre de télécharger le co
 
 Le code est disponible à cette adresse : <a href="https://github.com/dufoura/ESP_Cumulus.git"> Ici </a> 
 
+Le programme dispose d'une interface Web pour pouvoir configurer différents paramètres. Pour pouvoir uploader les fichiers, vous allez  devoir installer ce plug-in arduino : <a href="https://github.com/esp8266/arduino-esp8266fs-plugin"> Plugin SPIFFS </a>
+
 <h2> Premiers pas avec le module </h2>
 Vous avez réussi à transférer le programme dans l'ESP8266? Bravo!
 Quelques petites étapes de vérification : 
