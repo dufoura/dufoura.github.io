@@ -4,6 +4,7 @@ title:  "Diminuez votre facture d'eau chaude"
 date:   2018-08-06 22:30:21 +0200
 categories: jekyll update
 image : Test2.png
+comments: true
 resume : "Cet article vous propose un module électronique capable de commander à distance la commande de chauffe de votre cumulus au plus juste besoin"
 ---
 
@@ -130,3 +131,26 @@ Attention, baissez la température de consigne sous  les 60°C n'est pas une sol
 
 <h3>Pour aller plus loin</h3>
 Si vous souhaitez aller encore plus loin, vous pouvez décider d'investir dans un chauffe-eau thermodynamique. Vous pourrez diminuer significativement votre facture d'énergie, mais vous pourrez toujours optimiser l'énergie perdue en faisant marcher votre chauffe-eau juste avant de prendre votre douche. 
+
+{% if page.comments %}
+<div id="disqus_thread"></div>
+<script>
+
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+/*
+var disqus_config = function () {
+this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://https-dufoura-github-io.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+{% endif %}
