@@ -1,60 +1,69 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-
 # Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-title: Posez-vous les bonnes questions
-tagline:      Des idées pour minimiser notre impact écologique
-email: arnaud31.dufour@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
-paginate:     1
-locale:       "en"
+title: Home Smart Home
+description: L'électronique pour la domotique
+cover: assets/images/arch-bridge.jpg
+#logo: assets/images/dawn-desktop.jpg
+favicon: assets/images/favicon.png
+baseurl: "" # the subpath of your site, e.g. /blog/ or / for root
+url: "https://dufoura.github.io/" # the base hostname & protocol for your site
 
-url: "https://dufoura.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  dufoura
+pagination:
 
-defaults:
-  - scope:
-      path: "assets/img"
-    values:
-      image: true
-# About/contact
-author:
-  name:       Author name
-  url:        http://yourhomepage.com 
+  # Site-wide kill switch, disabled here it doesn't run at all 
+  enabled: true
+
+  # Set to 'true' to enable pagination debugging. This can be enabled in the site config or only for individual pagination pages
+  debug: false
+  # Optional, sorts the posts in reverse order (omit to default decending or sort_reverse: true)
+  sort_reverse: true
+  per_page: 5
+
+# Social
+#facebook: facebook
+#twitter: twitter
+github:  dufoura
+email : arnaud31.dufour@gmail.com
+linkedin : arnaud-dufour-56359663
+
+#Additional Pages
+about: about
+contact: mailto:arnaud31.dufour@gmail.com
+privacy-policy: privacy-policy
+
+
+permalink: /:title
+
+
+# Google Analytics
+analytics_id: "G-PQ4M4YC4HZ"
 
 # Build settings
 markdown: kramdown
-#theme: minima
-theme: jekyll-theme-cayman
+
+kramdown:
+  parse_block_html: true
 
 plugins:
-  - jekyll-feed
-  - jekyll-paginate
+  - jekyll-paginate-v2
 
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
+
+# Settings for rake task
+safe: False
+lsi: False
+username: dufoura #github username
+repo: dufoura.github.io #github repository
+branch: master #branch
+# relative_source: ../hanuman/ #source directory
+# destination: ../hanuman-pages/ #destination directory
+# production_url:  https://samanyougarg.com/
+# source_url:  https://github.com/samanyougarg/hanuman #source repository url
+
 # exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+  # - README.md
+  # - Rakefile
+  # - Gemfile
+  # - Gemfile.lock
+  # - changelog.md
+  # - "*.Rmd"
+  # - vendor
+  # - .travis.yml

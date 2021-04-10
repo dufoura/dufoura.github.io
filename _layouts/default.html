@@ -1,18 +1,13 @@
 <!DOCTYPE html>
-<html lang="{{ site.locale }}">
-  
+<html ⚡ lang="en">
   {% include head.html %}
-{% include page-navbar.html %}
   <body>
- 
+    {% include header.html %}
 
-    <section class="main-content">
-      
-      {{ content }}
+    {{ content }}
 
-      {% include page-footer.html %}
-
-    </section>
-
+    {% comment %}
+        {% include analytics.html %}
+    {% endcomment %}
   </body>
 </html>

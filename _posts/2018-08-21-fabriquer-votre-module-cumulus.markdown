@@ -1,10 +1,12 @@
 ---
 layout: post
 title:  "Régulez votre chauffe-eau"
-date:   2018-08-21
+date:   2018-08-21 22:00:00
 categories: jekyll update
 image : cumulus.png
 resume : "Cet article vous propose un module électronique capable de commander à distance la commande de chauffe de votre cumulus au plus juste besoin"
+tags : diy
+author : Arnaud
 ---
 Cet article va vous proposer une solution suite à l'article précédent sur le sujet  <a href="{{ site.baseurl }}/jekyll/update/2018/08/06/Diminuez-votre-consommation-eau-chaude.html">
 de la réalisation d'économies d'énergie au niveau de votre cumulus</a>. 
@@ -22,11 +24,11 @@ Je ne suis pas responsable de vos mauvaises manipulations!
 Le plus souvent, les relais doivent être pilotés en 5V. L'ESP8266 ne fonctionnant qu'à 3.3V, il faut un circuit d'adaptation (un simple transistor MOSFET dans notre cas)
 Afin de pouvoir déclencher le module à des heures fixes de la journée, il faut un module RTC capable de mémoriser l'heure. 
 On rajoute également un régulateur de tension et quelques capacités de filtrage, voici la schématique (le layout est disponible sous le Github) : 
-<img src="{{ "/assets/img/" | absolute_url }}esp_cumulus_schema.png">
+<img src="{{ "/assets/images/" | absolute_url }}esp_cumulus_schema.png">
 Au niveau du tableau électrique, le module se place entre le retour du compteur EDF et le disjoncteur de ballon d'eau chaude, comme sur le schéma : 
 
 <center>
-<img src="{{ "/assets/img/" | absolute_url }}montage_schema.png">
+<img src="{{ "/assets/images/" | absolute_url }}montage_schema.png">
 </center>
 
 <h2> Côté Software </h2>

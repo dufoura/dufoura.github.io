@@ -4,15 +4,12 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+Ce site est un moyen pour moi de vous faire part des développements que je réalise dans le cadre de mon temps libre pour diminuer dans la mesure du possible les impacts écologiques !
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+Cela peut être des réductions de différentes natures : énergie, eau, déchets, etc...
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+Dans la mesure du possible, j'essayerai d'être le plus explicite possible sur mes réalisations, et je tenterai de vous démontrer que cela peut améliorer votre empreinte écologique. 
 
+<strong> Attention ! Ces développements sont la plupart du temps des conceptions électroniques qui peuvent être connectées au réseau domestique. Il est de votre responsabilité de vérifier que votre conception est sécurisée et que personne ne peut venir s'électrocuter avec vos montages . Je ne suis en aucun cas responsable de vos réalisations. Je ferai juste en sorte de vous mettre en garde.</strong>
 
-[jekyll-organization]: https://github.com/jekyll
+A vos réalisations et bonne navigation sur le site ;)
