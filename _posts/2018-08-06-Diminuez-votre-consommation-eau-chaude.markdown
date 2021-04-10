@@ -5,7 +5,7 @@ date:   2018-08-06 22:30:21
 categories: jekyll update
 image : Test2.png
 resume : "Cet article vous propose un module électronique capable de commander à distance la commande de chauffe de votre cumulus au plus juste besoin"
-tags: guide
+tags: Economie Ecologie
 author: Arnaud
 ---
 

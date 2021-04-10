@@ -5,7 +5,7 @@ date:   2018-08-21 22:00:00
 categories: jekyll update
 image : cumulus.png
 resume : "Cet article vous propose un module électronique capable de commander à distance la commande de chauffe de votre cumulus au plus juste besoin"
-tags : diy
+tags : Electronique
 author : Arnaud
 ---
 Cet article va vous proposer une solution suite à l'article précédent sur le sujet  <a href="{{ site.baseurl }}/jekyll/update/2018/08/06/Diminuez-votre-consommation-eau-chaude.html">
