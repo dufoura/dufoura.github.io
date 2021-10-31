@@ -8,12 +8,31 @@ resume : "Cet article vous propose un tuto pour utiliser correctement votre cam�
 tags : Tutoriel
 author : Arnaud
 ---
-Cet article va vous proposer une solution suite à l'article précédent sur le sujet  <a href="{{ site.baseurl }}/jekyll/update/2018/08/06/Diminuez-votre-consommation-eau-chaude.html">
-de la réalisation d'économies d'énergie au niveau de votre cumulus</a>. 
-Il s'agit d'un module implémentable au niveau de votre tableau électrique. 
-Ce module est pilotable via le wifi : soit en se connectant en point à point, soit en l'appairant à votre réseau wifi.
+Cet article vous guide pas à pas pour intaller correctement la caméra.
 
-<h2> Côté Hardware </h2>
+<h2> Créer sous Home assistant une automatisation </h2>
+Sous Home Assistant, créer une automatisation.
+<img src="{{ "/assets/images/" | absolute_url }}camera1.png">
+Puis écrire : 
+<blockquote>
+alias: Appairage MQTT
+description: Permet envoi trame de validation pour les ESP maison
+trigger:
+  - platform: mqtt
+    topic: +/bind
+condition: []
+action:
+  - delay:
+      hours: 0
+      minutes: 0
+      seconds: 5
+      milliseconds: 0
+  - service: mqtt.publish
+    data:
+      payload: '2'
+      topic: '{{trigger.topic.split("/")[0]}}/action/param/id'
+mode: single
+</blockquote>
 Côté composants électroniques, j'adore travailler avec les modules ESP8266, car ils intègrent le module Wifi et ils disposent d'une flash embarquée assez importante, 
 permettant ainsi de stocker facilement un petit site internet en guise d'interface! 
 Pour le pilotage de la puissance, le plus simple est d'utiliser un relais qui va venir commuter le réseau EDF.
